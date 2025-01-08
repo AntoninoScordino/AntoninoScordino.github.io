@@ -49,11 +49,17 @@ body {
     /* Configure text padding */
     padding-top: 20px;
     letter-spacing: 20px;
+
+    /* Transition from hovering */
+    transition: cubic-bezier(0.2, 0, 0.1, 1) 150ms;
 }
 
 .icons:hover {
     /* Change icon's color when hovering */
-    color: #747474
+    color: #747474;
+
+    /* Transition when hovering */
+    transition: cubic-bezier(0.2, 0, 0.1, 1) 150ms;
 }
 
 /* Target: phones */
