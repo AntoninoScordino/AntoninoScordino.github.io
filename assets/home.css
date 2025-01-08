@@ -1,0 +1,64 @@
+h1 {
+    /* Set text style */
+    font-family: "Outfit", serif;
+    font-size: 80pt;
+    color: #e8e8e8;
+    margin: auto;
+
+    /* Font-specific settings */
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.text {
+    /* Set text style */
+    font-family: "Outfit", serif;
+    font-size: 15pt;
+    color: #8b8b8b;
+    margin: 0;
+    max-width: 500px;
+
+    /* Set text style for bold */
+    b {
+        color: #b9b9b9;
+    }
+
+    /* Font-specific settings */
+    font-optical-sizing: auto;
+    font-weight: 325;
+    font-style: normal;
+}
+
+body {
+    /* Set page content to the center */
+    display: flex;
+    place-items: center;
+
+    position: absolute;
+    inset: 0;
+    margin: 0 5.5rem;
+}
+  
+.icons {
+    /* Set text style */
+    font-size: 30px;
+    color: #e8e8e8;
+    text-decoration: none;
+
+    /* Configure text padding */
+    padding-top: 20px;
+    letter-spacing: 20px;
+}
+
+.icons:hover {
+    /* Change icon's color when hovering */
+    color: #747474
+}
+
+/* Target: phones */
+@media screen and (max-width: 541px) {
+    body {
+      margin: 0 2rem;
+    }
+}
