@@ -1,3 +1,18 @@
+/* Set styles for the entire body */
+body {
+    /* Set page content to the center */
+    display: flex;
+    place-items: center;
+
+    position: absolute;
+    inset: 0;
+    margin: 0 5.5rem;
+
+    /* Disable highlighting when tapping on text */
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Set styles for specific tags */
 h1 {
     /* Set text style */
     font-family: "Outfit", serif;
@@ -30,19 +45,7 @@ h1 {
     font-style: normal;
 }
 
-body {
-    /* Set page content to the center */
-    display: flex;
-    place-items: center;
-
-    position: absolute;
-    inset: 0;
-    margin: 0 5.5rem;
-
-    /* Disable highlighting when tapping on text */
-    -webkit-tap-highlight-color: transparent;
-}
-  
+/* Set style for self-made classes */
 .icons {
     /* Set text style */
     font-size: 30px;
@@ -65,7 +68,7 @@ body {
     transition: cubic-bezier(0.2, 0, 0.1, 1) 150ms;
 }
 
-/* Target: phones */
+/* Set style for different target(s): phones */
 @media screen and (max-width: 541px) {
     body {
       margin: 0 2rem;
