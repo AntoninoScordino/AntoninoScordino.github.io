@@ -39,6 +39,11 @@ h1 {
         color: #b9b9b9;
     }
 
+    /* Set text style for bold */
+    a {
+        color: #616161;
+    }
+
     /* Font-specific settings */
     font-optical-sizing: auto;
     font-weight: 325;
@@ -68,9 +73,25 @@ h1 {
     transition: cubic-bezier(0.2, 0, 0.1, 1) 150ms;
 }
 
+.list {
+    /* Configure list padding */
+    padding-top: 18px;
+    line-height: 22.5pt;
+}
+
 /* Set style for different target(s): phones */
 @media screen and (max-width: 541px) {
     body {
       margin: 0 2rem;
+    }
+
+    /* Decrease title size */
+    h1.title {
+        font-size: 35pt;
+    }
+
+    /* Decrease text size */
+    ul.text {
+        font-size: 14.5pt;
     }
 }
