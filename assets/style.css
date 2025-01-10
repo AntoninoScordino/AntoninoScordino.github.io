@@ -79,6 +79,23 @@ h1 {
     line-height: 22.5pt;
 }
 
+.socials {
+    display: flex;
+}
+
+p.separator {
+    display: flex;
+
+    /* Set text style */
+    font-size: 25px;
+    font-weight: 200;
+
+    /* Configure text padding */
+    place-items: end;
+    padding-right: 20px;
+    padding-bottom: 4px;
+}
+
 /* Set style for different target(s): phones */
 @media screen and (max-width: 541px) {
     body {
