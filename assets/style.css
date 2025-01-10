@@ -111,4 +111,13 @@ p.separator {
     ul.text {
         font-size: 14.5pt;
     }
+
+    /* Decrease spacing between icons and separator */
+    .icons {
+        letter-spacing: 13.8px;
+    }
+    
+    p.separator {
+        padding-right: 13.8px;
+    }
 }
