@@ -14,6 +14,9 @@ body {
     inset: 0;
     margin: 0 5.5rem;
 
+    /* Set page color */
+    background-color:#101010;
+
     /* Disable highlighting when tapping on text */
     -webkit-tap-highlight-color: transparent;
 }
