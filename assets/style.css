@@ -51,6 +51,16 @@ h1 {
         color: #616161;
     }
 
+    /* Remove 'text-decoration' from links */
+    a:link { 
+        text-decoration: none; 
+    }
+
+    /* Show 'text-decoration' when hovering on links */
+    a:hover {
+        text-decoration: underline;
+    }
+
     /* Font-specific settings */
     font-optical-sizing: auto;
     font-weight: 325;
