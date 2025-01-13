@@ -76,10 +76,6 @@ h1 {
     color: #e8e8e8;
     text-decoration: none;
 
-    /* Configure text padding */
-    padding-top: 18px;
-    letter-spacing: 20px;
-
     /* Transition from hovering */
     transition: cubic-bezier(0.2, 0, 0.1, 1) 150ms;
 }
@@ -109,10 +105,17 @@ p.separator {
     font-size: 25px;
     font-weight: 200;
 
-    /* Configure text padding */
+    /* Configure text position */
     place-items: end;
-    padding-right: 20px;
-    padding-bottom: 4px;
+    height: 28px;
+}
+
+.padding {
+    display: flex;
+
+    /* Configure the flexibox's padding */
+    padding-top: 18px;
+    gap: 20px;
 }
 
 /* Set style for different target(s): phones */
@@ -132,11 +135,7 @@ p.separator {
     }
 
     /* Decrease spacing between icons and separator */
-    .icons {
-        letter-spacing: 13.8px;
-    }
-    
-    p.separator {
-        padding-right: 13.8px;
+    .padding {
+        gap: 13.8px;
     }
 }
