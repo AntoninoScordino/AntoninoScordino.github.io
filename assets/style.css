@@ -43,6 +43,7 @@ h1 {
     color: #8b8b8b;
     margin: 0;
     max-width: 500px;
+    line-height: 22.5pt;
 
     /* Set text style for bold */
     b {
@@ -91,7 +92,6 @@ h1 {
 .list {
     /* Configure list padding */
     padding-top: 18px;
-    line-height: 22.5pt;
 }
 
 .socials {
