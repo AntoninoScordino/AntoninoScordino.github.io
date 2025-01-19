@@ -12,10 +12,10 @@ body {
 
     position: absolute;
     inset: 0;
-    margin: 0 5.5rem;
+    margin-left: 5.5rem;
 
     /* Set page color */
-    background-color:#101010;
+    background-color: #101010;
 
     /* Disable highlighting when tapping on text */
     -webkit-tap-highlight-color: transparent;
@@ -27,12 +27,14 @@ h1 {
     font-family: "Outfit", serif;
     font-size: 65pt;
     color: #e8e8e8;
-    margin: auto;
 
     /* Font-specific settings */
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
+
+    /* Set text placement and rules */
+    margin: auto;
 }
 
 /* Set style for self-made classes */
@@ -41,41 +43,41 @@ h1 {
     font-family: "Outfit", serif;
     font-size: 15pt;
     color: #8b8b8b;
-    margin: 0;
-    max-width: 500px;
-    line-height: 22.5pt;
-
-    /* Set text style for bold */
-    b {
-        color: #b9b9b9;
-    }
-
-    /* Set text style for bold */
-    a {
-        color: #616161;
-    }
-
-    /* Remove 'text-decoration' from links */
-    a:link { 
-        text-decoration: none; 
-    }
-
-    /* Show 'text-decoration' when hovering on links */
-    a:hover {
-        text-decoration: underline;
-    }
 
     /* Font-specific settings */
     font-optical-sizing: auto;
     font-weight: 325;
     font-style: normal;
+
+    /* Set text placement and rules */
+    margin: unset;
+    max-width: 500px;
+    line-height: 22.5pt;
+}
+
+/* Set '.text' class style for bold */
+.text b {
+    color: #b9b9b9;
+}
+
+/* Set '.text' class style for bold */
+.text a {
+    color: #616161;
+}
+
+/* Auto-hide 'text-decoration' from '.text' class for links */
+.text a:link { 
+    text-decoration: none; 
+}
+
+.text a:hover {
+    text-decoration: underline;
 }
 
 .icons {
     /* Set text style */
     font-size: 30px;
     color: #e8e8e8;
-    text-decoration: none;
 
     /* Transition from hovering */
     transition: cubic-bezier(0.2, 0, 0.1, 1) 150ms;
@@ -95,6 +97,7 @@ h1 {
 }
 
 p.separator {
+    /* Set '.separator' class as a flexbox */
     display: flex;
 
     /* Set text style */
@@ -115,7 +118,7 @@ p.separator {
 /* Set style for different target(s): phones */
 @media screen and (max-width: 541px) {
     body {
-        margin: 0 2rem;
+        margin-left: 2rem;
     }
 
     /* Decrease title size */
