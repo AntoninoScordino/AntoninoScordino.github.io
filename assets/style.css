@@ -94,10 +94,6 @@ h1 {
     padding-top: 18px;
 }
 
-.socials {
-    display: flex;
-}
-
 p.separator {
     display: flex;
 
@@ -111,9 +107,7 @@ p.separator {
 }
 
 .padding {
-    display: flex;
-
-    /* Configure the flexibox's padding */
+    /* Configure the class' padding */
     padding-top: 18px;
     gap: 20px;
 }
@@ -137,5 +131,13 @@ p.separator {
     /* Decrease spacing between icons and separator */
     .padding {
         gap: 13.8px;
+    }
+}
+
+/* Set style for different target(s): small phones */
+@media screen and (max-width: 375px) {
+    /* Increase title's top margin */
+    h1.title {
+        margin-top: 85%;
     }
 }
