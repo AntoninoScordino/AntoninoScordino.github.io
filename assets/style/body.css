@@ -1,0 +1,66 @@
+body {
+    /* Configure page styling */
+    margin: 0 30% 0 30%;
+    background-color: #121212;
+
+    /* Set font styling appliable to the entire page */
+    font-family: "Open Sans", serif;
+    color: #cfcfcf;
+}
+
+img.profile {
+    /* Append profile picutre to the left */
+    float: left;
+    margin: 7px 15px auto auto;
+}
+
+.footer {
+    /* Center all content on the 'center' class */
+    text-align: center;
+
+    /* Configure content for our footer */
+    margin-top: 25px;
+    line-height: 15px;
+}
+
+hr.footer {
+    /* Style the line separator */
+    border: dashed;
+    border-color: #51515165;
+    border-bottom-width: 1px;
+
+    /* Remove obstructing top width */
+    border-top-width: 0;
+}
+
+/* 'media' rules for different display sizes */
+@media screen and (max-width: 425px) {
+    /* Increase margins for mobile */
+    body {
+        margin-top: 10%!important;
+        margin-bottom: 10%!important;
+    }
+
+    /* Adjust image for smaller devices */
+    img.profile {
+        margin: auto 15px auto auto;
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* Adjust image for even smaller devices */
+    img.profile {
+        margin: auto 15px auto auto;
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust body for smaller devices */
+    body {
+        margin: 0 10% 0 10%;
+    }
+}
