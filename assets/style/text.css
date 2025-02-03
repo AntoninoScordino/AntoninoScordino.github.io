@@ -1,0 +1,58 @@
+/* Import 'Open Sans' from 'fonts.googleapis.com' */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+h1 {
+    /* Overwrite font color */
+    color: #e6e6e6;
+}
+
+h2 {
+    /* Decrease space between first header and second header */
+    margin-top: -20px;
+
+    /* Overwrite font color and weight */
+    color: #a1a1a1;
+    font-weight: 400;
+}
+
+p {
+    /* Decrease space between header and paragraph */
+    margin-top: -5px;
+}   
+
+a {
+    /* Set a darker color for links */
+    color: #a6a6a6
+}
+
+p.footer-text {
+    /* Add same 'margin-bottom' applied on top */
+    margin-bottom: 10%;
+
+    /* Style the footer */
+    font-size: 12px;
+    color: #686868;
+}
+
+/* Adjust font size for smaller devices */
+@media screen and (max-width: 425px) {
+    h1 {
+        font-size: 25px
+    }
+
+    h2 {
+        font-size: 17px
+    }
+}
+
+
+/* Adjust font size for even smaller devices */
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 21px
+    }
+
+    h2 {
+        font-size: 16px
+    }
+}
