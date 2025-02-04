@@ -6,7 +6,7 @@ h1 {
     color: #e6e6e6;
 }
 
-h2 {
+h2.subheader {
     /* Decrease space between first header and second header */
     margin-top: -20px;
 
